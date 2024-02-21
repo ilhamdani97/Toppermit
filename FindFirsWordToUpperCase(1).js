@@ -7,6 +7,5 @@ function handleGetFirstAfterDash(value){
     splitValue.forEach((data) => {
         valueFinal += data.charAt(0).toUpperCase()
     })
-    
     console.log("final value", valueFinal)
 }
